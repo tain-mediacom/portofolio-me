@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'MyFont'; /* nama bebas */
+  src: url('/font/Saiyan-Sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(90deg, #015374, #02bdb3);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  text-shadow: -1px -1px 0 rgb(224, 222, 222);
+}
+
+.goku {
+  font-family: MyFont;
+  text-shadow: -1px -1px 1px rgb(238, 240, 240);
+  font-size: 70px;
+}
+
+.saiya {
+  font-family: MyFont;
+  color: rgb(172, 223, 240);
+  font-size: 40px;
+}
+
+.crl {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+img:hover {
+  filter: drop-shadow(-2px -1px 12px rgba(243, 241, 241, 0.5));
+  scale: 103%;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .crl {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .crl {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  img {
+    margin-top: 6px;
+  }
+
+  .crl {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
